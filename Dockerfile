@@ -1,3 +1,5 @@
-FROM atendai/evolution-api:v2.1.2
-EXPOSE 8080
+FROM evoapicloud/evolution-api:v2.3.7
 ENV PORT=8080
+ENV SERVER_PORT=8080
+ENV DATABASE_ENABLED=false
+EXPOSE 8080
